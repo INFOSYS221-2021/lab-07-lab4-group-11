@@ -40,7 +40,7 @@ public class ExerciseOne {
         int freq = 0;
         for (int i = 0; i < word.length(); i++) {
             if (letter == word.charAt(i)) {
-                freq += 1;
+                freq++;
             }        
         }
         if (freq == 0) {
