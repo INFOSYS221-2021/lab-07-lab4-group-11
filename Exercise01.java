@@ -29,10 +29,7 @@ public class ExerciseOne {
     
     // Complete this method to return a combination of the first three letters and the last four letters of the given word.
     private String wordCombo(String word) {
-        String newWord = "";
-        newWord += word.substring(0, 3);
-        newWord += word.substring(word.length() - 4);
-        return newWord;
+        return word.substring(0, 3) + word.substring(word.length() - 4);
     }
     
     // Complete this method to return the frequencey of the specified letter in the given word. If the specified letter is not in the given word, then return -1.
