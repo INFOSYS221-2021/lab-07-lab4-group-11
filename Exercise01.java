@@ -41,7 +41,7 @@ public class ExerciseOne {
             }        
         }
         if (freq == 0) {
-            return -1
+            return -1;
         }
         return freq;
     }
